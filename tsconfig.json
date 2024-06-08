@@ -1,15 +1,9 @@
 {
+    "extends": "utils/tsconfig.json",
     "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
-        "strict": true,
-        "esModuleInterop": true,
-        "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true,
-        "baseUrl": "./",
-        "outDir": ".",
-        "rootDir": "src",
+      "outDir": ".",
+      "rootDir": "src"
     },
-    "include": ["**/*.ts", "src/**/*"],
-    "exclude": ["node_modules", "*.js", "*.d.ts"]
-}
+    "exclude": ["*.js", "*.d.ts"],
+    "include": ["src/**/*"]
+  }

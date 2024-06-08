@@ -1,3 +1,5 @@
+export {}
+
 import PocketBase from 'pocketbase';
 import type { Adapter, AdapterUser, AdapterAccount, AdapterSession } from "@auth/core/adapters"
 

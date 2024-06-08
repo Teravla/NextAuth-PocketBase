@@ -1,5 +1,6 @@
 {
   "name": "nextauth-pocketbase",
+  "type": "module",
   "version": "1.0.0",
   "description": "An Nextauth integration for Pocketbase database",
   "dependencies": {
