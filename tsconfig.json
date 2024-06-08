@@ -11,6 +11,5 @@
         "rootDir": "src",
     },
     "include": ["**/*.ts", "src/**/*"],
-    "exclude": ["node_modules", "*.js", "*.d.ts"],
-    "extends": "./tsconfig.json",
+    "exclude": ["node_modules", "*.js", "*.d.ts"]
 }

@@ -2,20 +2,12 @@
   "name": "nextauth-pocketbase",
   "version": "1.0.0",
   "description": "An Nextauth integration for Pocketbase database",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@auth/core": "^0.32.0",
     "pocketbase": "^0.21.3"
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
-    "@types/react": "^18.3.3",
     "typescript": "^5.4.5"
   }
 }
